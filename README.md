@@ -30,17 +30,8 @@ The main goal of this project is to build an attractive *portfolio website* that
 ---
 
 ## 🌐 Live Demo  
-🔗 [Click here to view live portfolio](https://your-live-link-here.com)  
-(Add your deployed website link here once hosted on GitHub Pages)  
-
----
-
-## 📂 Repository Structur
-
-## 📸 Preview  
-(Add your website screenshot here)  
-Example:  
-![Portfolio Screenshot](images/preview.png)
+🔗 [Click here to view live portfolio]
+(https://nitusharma01.github.io/CODSOFT_PORTFOLIO/)
 
 ---
 
