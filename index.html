@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+     <nav>
+        <div class="left">
+            <img src="logo.png" height="100" class="logo">
+        </div>
+        <div class="right">
+            <a href="https://github.com/nitusharma01" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/nitu-sharma-77535533a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="mailto:niitusharma01@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+     </nav>
+
+     <!-- main -->
+     <main>
+        <!-- SECTION 1: Hero -->
+         <section class="hero-section">
+           <div class="text">
+            <h2>Hi, I'm NITU SHARMA</h2>
+
+            <p>A passionate and dedicated web developer with a solid understanding of HTML, CSS, JavaScript, and Python.
+               I enjoy building responsive, user-friendly, and visually appealing websites that provide smooth digital experiences.
+               Currently, I'm expanding my skills to become a Full Stack Developer, learning how to connect beautiful front-end designs with powerful back-end functionality.
+               I'm deeply interested in understanding how the web works from start to finish — from writing clean code to optimizing performance and user experience.
+               I love exploring new technologies, solving real-world problems through code, and continuously improving myself as a developer.
+               My goal is to work on impactful projects that challenge my creativity and technical skills.
+               <br>
+               💻🚀 Let's connect, collaborate, and bring ideas to life through code!
+            </p>
+
+             <div class="links">
+                <a href="#skills">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Skills</span>
+                </a>
+
+                <a href="#projects">
+                    <i class="fa-regular fa-square-check"></i>
+                    <span>Projects</span>
+                </a>
+
+                <a href="#contact">
+                    <i class="fa-regular fa-id-badge"></i>
+                    <span>Contact</span>
+                </a>
+
+                <a id="download-cv" href="NituSharma.pdf" class="btn" download>Download CV</a>
+             </div>
+           </div>
+
+           <div class="headshot">
+            <img src="iii.jpg" alt="img">
+           </div>
+         </section>
+
+        <!-- SECTION 2: Skills -->
+         <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                Experienced in frontend technologies like HTML,CSS and JavaScript and familiar with Python for backend development.
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="html.webp" alt="html logo">
+                    <span>HTML</span>
+                </div>
+                <div class="cell">
+                    <img src="css.webp" alt="css logo">
+                    <span>CSS</span>
+                </div>
+                <div class="cell">
+                    <img src="js.webp" alt="js logo">
+                    <span>JavaScript</span>
+                </div>
+                <div class="cell">
+                    <img src="python.webp" alt="python logo">
+                    <span>Python</span>
+                </div>
+            </div>
+         </section>
+
+        <!-- SECTION 3: Projects -->
+         <section id="projects" class="project-section">
+            <h2>Projects</h2>
+
+            <div class="group">
+                <div class="Project-img">
+                    <img src="Recipe-img.jpg" alt="Project-img">
+                </div>
+
+                <div class="text">
+                    <p>During my academic journey, I have actively worked on several team-based projects under the Project-Based Learning (PBL) initiative.
+                    Working in teams helped me understand collaboration, task management, version control, and problem-solving in real-world project development.</p>
+
+                    <h2>Recipe Recommendation System</h2>
+
+                    <p>The Recipe Recommendation System is a web-based application that helps users discover healthy and suitable recipes based on their nutritional preferences and available ingredients. Users can input details such as Calories, Fat, Carbohydrates, Protein, Cholesterol, Sodium, Fiber, and Ingredients, and the system recommends recipes that best match their requirements. This project combines Machine Learning for intelligent recipe prediction with a Flask web framework to create a user-friendly interface. It provides an easy way for users to plan balanced meals and explore new dishes according to dietary needs.</p>
+                </div>
+            </div>
+         </section>
+
+        <!-- SECTION 4: Contact -->
+         <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <div class="group">
+                <div class="text">
+                    I'm currently open to internship opportunities and collaborations.Feel free to contact me for any professional inquiries or project discussions.
+                </div>
+
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+         </section>
+     </main>
+
+     <!-- footer -->
+     <footer>
+        <p>&copy;2025 Nitu Sharma. All rights reserved.</p>
+        <p>
+            <a href="https://www.linkedin.com/in/nitu-sharma-77535533a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Linkedin</a> |
+            <a href="mailto:niitusharma01@gmail.com">Email Me</a>
+        </p>
+        <p>Thank you for visiting my portfolio!🩷</p>
+     </footer>
+
+
+
+    
+</body>
+</html>
